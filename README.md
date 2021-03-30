@@ -10,7 +10,7 @@ O arquivo removeSpacesAndTabs.cpp recebe uma string e remove os caracteres de es
 
 ### Status (en)
 - Beginning: 20210330. Created files: nnlib.h; nnlib.cpp and removeSpacesAndTabs.cpp. <p>
-The file removeSpacesAndTabs.cpp takes a string and removes the space and tab characters.
+The removeSpacesAndTabs.cpp file takes a string and removes the space and tab characters.
 - Project under development.
 
 
