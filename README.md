@@ -7,12 +7,11 @@ nn language is an educational programming language. The goal is to practice prog
 - Início: 20210330. Criados os arquivos: nnlib.h; nnlib.cpp e removeSpacesAndTabs.cpp.<p>
 O arquivo removeSpacesAndTabs.cpp recebe uma string e remove os caracteres de espaço e tabulação.  
 
-<p><p>
-Beginning: 20210330. Created the files: nnlib.h; nnlib.cpp and removeSpacesAndTabs.cpp. <p>
+- Beginning: 20210330. Created the files: nnlib.h; nnlib.cpp and removeSpacesAndTabs.cpp. <p>
 The file removeSpacesAndTabs.cpp takes a string and removes the space and tab characters.
-<p><p>
+
 - Projeto em desenvolvimento.<p>
-Project under development.
+- Project under development.
 
 ## Contributing
 Se você curte programação e quer divertir-se contacte-me.
