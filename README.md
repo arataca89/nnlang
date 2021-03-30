@@ -3,5 +3,7 @@ nn language é uma linguagem de programação educativa. O objetivo é praticar 
 
 nn language is an educational programming language. The goal is to practice programming and have fun creating a language and an interpreter / compiler.
 
+# status
+inícioo: 20210330
 
-
+beginning: 20210330
