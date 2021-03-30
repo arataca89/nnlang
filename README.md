@@ -5,10 +5,9 @@ nn language is an educational programming language. The goal is to practice prog
 
 ## Status
 Início: 20210330
-Projeto em desenvolvimento
-
-
 Beginning: 20210330
+
+Projeto em desenvolvimento
 Project under development.
 
 ## Contributing
