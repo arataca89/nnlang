@@ -3,12 +3,7 @@ Descrição: nn language é uma linguagem de programação educativa. O objetivo
 
 Description: nn language is an educational programming language. The goal is to practice programming and have fun creating a language and an interpreter / compiler.
 
-### Status (ptbr)
-- 20210330: nnlib.h; nnlib.cpp e removeSpacesAndTabs.cpp  
-- 20210331: isAritOperator(), isAssigOperator() e isCompOperator()
-- Projeto em desenvolvimento.<p>
-
-### Status (en)
+### Status
 - 20210330: nnlib.h; nnlib.cpp and removeSpacesAndTabs.cpp
 - 20210331: isAritOperator(), isAssigOperator() and isCompOperator()
 - Project under development.
