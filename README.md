@@ -10,7 +10,7 @@ Description: nn language is an educational programming language. The goal is to 
 
 
 ## Contribuições / Contributing
-Se você curte programação e quer divertir-se contacte-me.
+Se você curte programação e quer divertir-se contacte-me.<p>
 If you like programming and want to have fun contact me.
 
 ## Authors and acknowledgment
