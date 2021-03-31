@@ -10,7 +10,7 @@
 using std::string;
 
 
-// return '1' if 'c' is coparison operator; otherwise return '0'
+// return '1' if 'c' is comparison operator; otherwise return '0'
 // comparison operators:
 // grater than			>
 // less then	   		<
