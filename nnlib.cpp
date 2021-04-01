@@ -6,36 +6,66 @@
 
 #include "nnlib.h"
 
+// 20210331
+int isEndCommand(char c){
+	
+	switch(c){
+	    case ';':
+		    return 1;
+		default:
+		    return 0;
+			
+	}
+	
+}
 
 // 20210331
-char isCompOperator(char c){
+int isDelimiter(char c){
+	
+	switch(c){
+	    case '(':
+		case ')':
+		case '{':
+		case '}':
+		case '[':
+		case ']':		
+		    return 1;
+		default:
+		    return 0;
+			
+	}
+	
+}
+
+// 20210331
+int isCompOperator(char c){
 	
 	switch(c){
 	    case '>':
 		case '<':
-		    return '1';
+		    return 1;
 		default:
-		    return '0';
+		    return 0;
 			
 	}
 	
 }
 
 // 20210331
-char isAssigOperator(char c){
+int isAssigOperator(char c){
 	
 	switch(c){
 	    case '=':
-		    return '1';
+		    return 1;
 		default:
-		    return '0';
+		    return 0;
 			
 	}
 	
 }
 
 // 20210331
-char isAritOperator(char c){
+int isAritOperator(char c){
 	
 	switch(c){
 	    case '+':
@@ -43,9 +73,9 @@ char isAritOperator(char c){
 		case '*':
 		case '/':
 		case '%':
-		    return '1';
+		    return 1;
 		default:
-		    return '0';
+		    return 0;
 			
 	}
 	

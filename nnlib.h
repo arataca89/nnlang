@@ -10,27 +10,36 @@
 using std::string;
 
 
-// return '1' if 'c' is comparison operator; otherwise return '0'
+// return 1 if 'c' is equal to ';', otherwise return 0
+int isEndCommand(char c);
+
+
+// return 1 if 'c' is a delimiter; otherwise return 0
+// delimiters: (	)	{	}	[	]
+int isDelimiter(char c);
+
+
+// return 1 if c is comparison operator; otherwise return 0
 // comparison operators:
 // grater than			>
 // less then	   		<
-char isCompOperator(char c);
+int isCompOperator(char c);
 
 
 // 20210331
-// return '1' if 'c' is equal to '='; otherwise return '0'
-char isAssigOperator(char c);
+// return 1 if 'c' is equal to '='; otherwise return 0
+int isAssigOperator(char c);
 
 
 // 20210331
-// return '1' if 'c' is arithmetic operator; otherwise return '0'
+// return 1 if 'c' is arithmetic operator; otherwise return 0
 // arithmetic operators:
 //     addition			+
 //     subtraction 		-
 //     multiplication 	*
 //     division 		/
 //     modulus 			%
-char isAritOperator(char c); 
+int isAritOperator(char c); 
 
 
 // 20210330
