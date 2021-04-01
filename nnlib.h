@@ -2,12 +2,20 @@
 // arataca89@gmail.com 
 // 20210330
 
-// Last updated: 20210331
+// Last updated: 20210401
 
 #include <algorithm>
 
 #include <string>
 using std::string;
+
+
+// if word is an ID return 1; otherwise return 0
+int isID(const string& word);
+
+
+// return 1 if 'word' is a keyword; otherwise return 0
+int isKeyWord(const string& word);
 
 
 // return 1 if 'c' is equal to ';', otherwise return 0
