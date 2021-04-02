@@ -2,7 +2,7 @@
 // arataca89@gmail.com 
 // 20210330
 
-// Last updated: 20210401
+// Last updated: 20210402
 
 #include "nnlib.h"
 
@@ -47,8 +47,12 @@ int isKeyWord(const string& word){
 
 
 // 20210331
-int isEndCommand(char c){
+// Last updated: 20210402
+int isEndCommand(char c){	
 	
+	return( c == ';' ? 1 : 0 );
+	
+	/*
 	switch(c){
 	    case ';':
 		    return 1;
@@ -56,6 +60,7 @@ int isEndCommand(char c){
 		    return 0;
 			
 	}
+	*/
 	
 }
 
@@ -95,8 +100,12 @@ int isCompOperator(char c){
 
 
 // 20210331
+// Last updated: 20210402
 int isAssigOperator(char c){
+
+	return( c == '=' ? 1 : 0 );
 	
+	/*
 	switch(c){
 	    case '=':
 		    return 1;
@@ -104,7 +113,7 @@ int isAssigOperator(char c){
 		    return 0;
 			
 	}
-	
+	*/
 }
 
 
