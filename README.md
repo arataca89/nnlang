@@ -7,6 +7,7 @@ Description: nn language is an educational programming language. The goal is to 
 - 20210330: nnlib.h; nnlib.cpp
 - 20210331: nnlib.h (updated); nnlib.cpp (updated); isAritOperator(); isAssigOperator(); isCompOperator(); isDelimiter(); isEndCommand(); tokens#1.cpp 
 - 20210401: nnlib.h (updated); nnlib.cpp (updated); isKeyWord.cpp; isID.cpp
+- 20210402: nnlib.cpp (updated: isEndCommand() and isAssigOperator())
 - Project under development.
 
 
