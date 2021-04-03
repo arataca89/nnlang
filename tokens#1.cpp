@@ -48,8 +48,10 @@ int main(){
 
 		 if(isEndCommand(linha[i])){
 			
+			// updated in 20210403
 			if(buffer.size() > 0)
 			    cout << buffer << endl;
+			//=========================
 			
             cout << linha[i] << endl;
             buffer.clear();	
