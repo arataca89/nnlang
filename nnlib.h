@@ -2,13 +2,19 @@
 // arataca89@gmail.com 
 // 20210330
 
-// Last updated: 20210401
+// Last updated: 20210403
 
 #include <algorithm>
 
 #include <string>
 using std::string;
 
+
+// if word can represent an decimal number, return 1; otherwise, return 0
+int isFloat(const string& word);
+
+// if word can represent an integer, return 1; otherwise, return 0
+int isInt(const string& word);
 
 // if word is an ID return 1; otherwise return 0
 int isID(const string& word);

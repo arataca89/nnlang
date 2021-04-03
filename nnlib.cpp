@@ -2,9 +2,49 @@
 // arataca89@gmail.com 
 // 20210330
 
-// Last updated: 20210402
+// Last updated: 20210403
 
 #include "nnlib.h"
+
+
+// 20210403
+// if word can represent an decimal number, return 1; otherwise, return 0
+int isFloat(const string& word){
+	
+	int ponto = 0;
+	
+	for(int i=1; i < word.size(); i++){
+		
+		if(word[i] == '.')
+			ponto++;
+		
+		if( !isdigit(word[i]) && word[i] != '.')
+		    return 0;
+		
+	}
+	
+	if(ponto != 1)
+		return 0;
+	
+	return 1;
+	
+}
+
+
+// 20210403
+// if word can represent an integer, return 1; otherwise, return 0
+int isInt(const string& word){
+	
+	for(int i=1; i < word.size(); i++){
+		
+		if( !isdigit(word[i]))
+		    return 0;
+		
+	}
+	
+	return 1;	
+	
+}
 
 
 // 20210401
