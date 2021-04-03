@@ -19,13 +19,14 @@ int main(){
 	string linha = "op(soma1=nr1+2.5);";
 	string buffer;
 
-	cout << linha << endl;
+	cout << linha << '\n' << endl;
 	
 	for(int i=0;i<linha.size();i++){
          
 		 if(isDelimiter(linha[i])){
-			cout << buffer << endl;
-            cout << linha[i] << endl;
+			
+			cout << buffer << endl;         
+			cout << linha[i] << endl;
             buffer.clear();	
             continue;			
 		 }
@@ -46,7 +47,10 @@ int main(){
 		 }		 	
 
 		 if(isEndCommand(linha[i])){
-			cout << buffer << endl;
+			
+			if(buffer.size() > 0)
+			    cout << buffer << endl;
+			
             cout << linha[i] << endl;
             buffer.clear();	
             continue;			
